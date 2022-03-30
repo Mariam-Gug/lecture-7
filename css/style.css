@@ -1,0 +1,73 @@
+/* fluid page */
+
+/* header - navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 67px 80px 0 123px;
+    z-index: 9;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D37F1;
+}
+.expert {
+    font-weight: 300;
+    color: #4B647E;
+}
+.nav-a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #3D37F1;
+}
+.list {
+    width: 585px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-section {
+    margin: 373px 80px 0 132px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.text-box1 {
+    width: 500px;
+    color: #534D4D;
+}
+.text-box1 h2 {
+    margin-top: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text-box1 p {
+    margin-top: 42px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+img {
+    width: 500px;
+}
+/* button */
+.blue-button {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    height: 76.77px;
+    width: 263.67px;
+    color: #fff;
+    background-color: #3D37F1;
+    border-radius: 15em;
+}
