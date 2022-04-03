@@ -14,9 +14,10 @@ header {
     align-items: center;
     background-color: #fff;
 }
+/* logo */
 .logo {
     font-family: 'Lato', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     color: #3D37F1;
 }
@@ -24,8 +25,9 @@ header {
     font-weight: 300;
     color: #4B647E;
 }
+/* navigation */
 .list {
-    width: 500px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
 }
@@ -66,7 +68,7 @@ header {
 .image1 {
     width: 550px;
 }
-/* button */
+/* top section's blue button */
 .blue-button {
     display: flex;
     justify-content: center;
@@ -90,6 +92,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+/* botton section's titles and text */
 .wrapper2 {
     display: flex;
     flex-direction: column;
@@ -130,6 +133,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .block img {
     margin-top: 50px;
@@ -168,6 +172,7 @@ header {
     background-color: #FF8088;
     margin-top: 50px;
 }
+/* six box white button */
 .block-button {
     margin-top: 20px;
     height: 60px;
