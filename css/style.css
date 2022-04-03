@@ -36,10 +36,14 @@ header {
     text-transform: uppercase;
     color: #3D37F1;
 }
+/* top section */
 .top-section {
-    margin: 250px 70px 0 70px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
 }
 .wrapper {
+    width: 1024px;
     display: flex;
     justify-content: space-between;
 }
@@ -79,6 +83,7 @@ header {
     font-size: 20px;
     margin-left: 20px;
 }
+/* bottom section */
 .bottom-section {
     margin-top: 200px;
     display: flex;
@@ -110,6 +115,7 @@ header {
     font-size: 15px;
     color: #747474;
 }
+/* six different color boxes */
 .wrapper3 {
     margin: 60px 0;
     width: 1000px;
