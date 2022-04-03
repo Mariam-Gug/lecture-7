@@ -173,11 +173,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
 }
 .block-button:hover {
     background-color: #fff;
     color: #4B647E;
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: linear;
 }
